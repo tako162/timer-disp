@@ -1,6 +1,12 @@
 body {
-    background-color: #1e1e1e;
-    font-family: Yu Mincho;
+    background-color: #000000;
+    font-family: "Yu Mincho";
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .timer-label {
