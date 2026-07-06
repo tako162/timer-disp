@@ -29,7 +29,7 @@ body {
     font-size: 9vw;
     background: linear-gradient(90deg, #FF0000, #FFFF00, #FF00FF, #FF0000);
     background-size: 200% 100%;
-    animation: gradientAnimation 1.5s linear infinite;
+    animation: gradientAnimation 1s linear infinite;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -38,7 +38,7 @@ body {
 .glad-timer {
     background: linear-gradient(90deg, #FF0000, #FFFF00, #FF00FF, #FF0000);
     background-size: 200% 100%;
-    animation: gradientAnimation 1.5s linear infinite;
+    animation: gradientAnimation 1s linear infinite;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
