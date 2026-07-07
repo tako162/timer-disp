@@ -14,7 +14,7 @@ function showClock() {
     let msg = nowHour + ":" + nowMin + ":" + nowSec;
     const current = nowTime.getHours() * 60 + nowTime.getMinutes();
     document.getElementById("realtime").innerHTML = msg;
-    if (current >= 7 * 60 + 35) {
+    if (current >= 7 * 60 + 35 && current <= 8 * 60 + 40) {
         document.getElementById("timer-label").classList.add("glad-label");
         document.getElementById("timer-label").textContent = "◤◢◤遅刻確定◢◤◢";
         document.getElementById("realtime").classList.add("glad-timer");
