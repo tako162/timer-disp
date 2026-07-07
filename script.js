@@ -20,6 +20,7 @@ function showClock() {
         document.getElementById("realtime").classList.add("glad-timer");
     } else {
         document.getElementById("timer-label").classList.remove("glad-label");
+        document.getElementById("timer-label").textContent = "現在時刻";
         document.getElementById("realtime").classList.remove("glad-timer");
     }
 }
