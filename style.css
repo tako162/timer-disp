@@ -12,7 +12,7 @@ body {
 .timer-label {
     margin: 0;
     color: #fff;
-    font-size: 500%;
+    font-size: 9vw;
     text-align: center;
 }
 
@@ -25,7 +25,6 @@ body {
 }
 
 .glad-label {
-    font-size: 9vw;
     background: linear-gradient(90deg, #FF0000, #FFFF00, #FF00FF, #FF0000);
     background-size: 200% 100%;
     animation: gradientAnimation 1s linear infinite;
